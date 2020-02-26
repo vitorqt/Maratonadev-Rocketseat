@@ -33,7 +33,7 @@ server.get("/", function(req, res) {
 
     const donors = result.rows
     return res.render("index.html", { donors })
-    .
+    
   })
 })
 
